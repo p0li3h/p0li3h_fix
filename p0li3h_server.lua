@@ -1,10 +1,13 @@
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
+
 local everyoneAllowed = false
 
 local allowed = 
 {
-	"steam:11000011440388f", -- P0LI3H
-	"steam:110000141ecbef2", -- ZAKOLAK
-	"steam:110000103a7cfa1", -- NIKOS
+	"steam:", -- Change this to yours steam hex
+
 }
 
 
@@ -45,3 +48,7 @@ function checkAllowed(id)
 	
 	return false
 end
+
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
