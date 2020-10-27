@@ -1,3 +1,7 @@
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
+
 RegisterNetEvent('p0li3h:fix')
 AddEventHandler('p0li3h:fix', function()
 	local playerPed = GetPlayerPed(-1)
@@ -34,3 +38,7 @@ function notification(msg)
 	AddTextComponentString(msg)
 	DrawNotification(false, false)
 end
+
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
+-- https://g0dp0li3h.pl/
