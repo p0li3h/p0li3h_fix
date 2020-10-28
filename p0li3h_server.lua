@@ -2,7 +2,7 @@
 -- https://g0dp0li3h.pl/
 -- https://g0dp0li3h.pl/
 
-local everyoneAllowed = false
+local AccesAllPlayers = false
 
 local allowed = 
 {
@@ -16,7 +16,7 @@ AddEventHandler('chatMessage', function(source, n, msg)
 	local identifier = GetPlayerIdentifiers(source)[1]
 	if msg == "/fx" then
 		CancelEvent()
-		if everyoneAllowed == true then
+		if AccesAllPlayers == true then
 			TriggerClientEvent('p0li3h:fix', source)
 		else
 			if checkAllowed(identifier) then
@@ -27,7 +27,7 @@ AddEventHandler('chatMessage', function(source, n, msg)
 		end
 	elseif msg == "/c" then 
 		CancelEvent()
-		if everyoneAllowed == true then
+		if AccesAllPlayers == true then
 			TriggerClientEvent('p0li3h:clean', source)
 		else
 			if checkAllowed(identifier) then
